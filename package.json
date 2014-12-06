@@ -9,14 +9,13 @@
   },
   "version": "0.0.1",
   "dependencies": {
-    "i2c": ">= 0.1.4",
+    "i2c": "0.1.4", 
     "sleep": ">=1.1.8",
     "deasync": ">=0.0.7",
     "tty.js": "^0.2.13"
   },
   "devDependencies": {},
   "scripts": {
-    "preinstall": "bash deps.sh",
     "start": "modprobe i2c-dev && node tty.js"
   },
   "engines": {
