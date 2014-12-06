@@ -16,7 +16,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "modprobe i2c-dev && node tty.js"
+    "start": "modprobe i2c-dev && node server.js"
   },
   "engines": {
       "node": "0.10.22"
